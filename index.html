@@ -1,0 +1,117 @@
+<a href="index.html"></a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CycleSense</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background: #28a745;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 1.8rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1rem;
+      font-weight: 600;
+    }
+    .hero {
+      padding: 3rem 2rem;
+      background: #e9f5e9;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      max-width: 600px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+    }
+    .bikes {
+      padding: 2rem;
+    }
+    .bikes h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .bike-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+    .bike-item {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .footer {
+      background: #28a745;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CycleSense</h1>
+    <nav>
+        
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+    </nav>
+  </header>
+  
+
+  <section class="hero">
+    <h2>Learn Bicycle Safety & Maintenance</h2>
+    <p>Welcome to CycleSense — your online guide to bicycle types, safe riding, and essential maintenance tips.</p>
+  </section>
+
+  <section class="bikes">
+    <h3>Types of Bicycles</h3>
+    <div class="bike-list">
+      <div class="bike-item">🚴‍♂️ Road Bikes</div>
+      <div class="bike-item">🚵 Mountain Bikes</div>
+      <div class="bike-item">🚲 Hybrid Bikes</div>
+      <div class="bike-item">🚴 Gravel / Adventure</div>
+      <div class="bike-item">🛵 Electric Bikes</div>
+      <div class="bike-item">🚲 Folding Bikes</div>
+      <div class="bike-item">🚴‍♀️ Cruiser Bikes</div>
+      <div class="bike-item">🚴 BMX Bikes</div>
+      <div class="bike-item">🚴‍♂️ Track / Fixie</div>
+      <div class="bike-item">🚴 Recumbent Bikes</div>
+      <div class="bike-item">🚲 Cargo Bikes</div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 CycleSense | Web-Based Bicycle Safety Guide
+  </footer>
+
+</body>
+</html>
